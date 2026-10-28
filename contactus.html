@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | EcoBoba Co.</title>
+<meta name="description" content="Get in touch with EcoBoba Co.">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="main.js" defer></script>
+</head>
+<body>
+<div class="layout">
+<header class="site-header glass">
+  <a class="logo" href="index.html">Eco<span>Boba</span> Co.</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav aria-label="Main"><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="contactus.html" aria-current="page">Contact Us</a></li>
+  </ul></nav>
+</header>
+
+<main>
+  <span class="eyebrow">Say hello</span>
+  <h1>Let’s talk boba.</h1>
+  <p style="margin:14px 0 30px">Email us directly at <a href="mailto:contact@ecoboba.com"><strong>contact@ecoboba.com</strong></a> or use the form below.</p>
+
+  <div class="two" style="align-items:start">
+    <form id="contact-form" class="glass">
+      <label>Name<input name="name" type="text" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Subject<input name="subject" type="text" required></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p id="status" class="status" role="status"></p>
+    </form>
+    <iframe class="map" title="EcoBoba Co. location map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.70%2C45.50%2C-122.64%2C45.54&amp;layer=mapnik"></iframe>
+  </div>
+
+  <section>
+    <h2>Follow along</h2>
+    <div class="socials">
+      <a class="social" href="https://instagram.com" target="_blank" rel="noopener"><canvas class="cv" data-3d data-type="cube" data-color="#d1566f" aria-hidden="true"></canvas>Instagram</a>
+      <a class="social" href="https://tiktok.com" target="_blank" rel="noopener"><canvas class="cv" data-3d data-type="cube" data-color="#2f4a38" aria-hidden="true"></canvas>TikTok</a>
+      <a class="social" href="https://facebook.com" target="_blank" rel="noopener"><canvas class="cv" data-3d data-type="cube" data-color="#5b7fc1" aria-hidden="true"></canvas>Facebook</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer glass">
+  <div><a class="logo" href="index.html">Eco<span>Boba</span> Co.</a><p>Better boba for people and planet.</p></div>
+  <div><strong>Explore</strong><ul><li><a href="index.html">Home</a></li><li><a href="aboutus.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="contactus.html">Contact Us</a></li></ul></div>
+  <div><strong>Contact</strong><ul><li><a href="mailto:contact@ecoboba.com">contact@ecoboba.com</a></li><li>123 Green Leaf Ave</li><li>© 2026 EcoBoba Co.</li></ul></div>
+</footer>
+</div>
+</body>
+</html>
